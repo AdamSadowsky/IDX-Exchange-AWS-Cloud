@@ -1,0 +1,1 @@
+My laptop will ssh into the bastion EC2 instance in a public subnet through its public ip and will verify credentials using the training key. Then my bastion will ssh into the private EC2 instance through using the private ip in the vpc and verify credentials through ssh agent forwarding.
