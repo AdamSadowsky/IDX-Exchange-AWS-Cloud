@@ -1,0 +1,3 @@
+Running terraform plan determines which resources need to be created, modified, or deleted based on the configuration in main.tf. Running terraform apply executes these changes in AWS. Running terraform destroy removes the resources managed by Terraform to prevent further charges from those resources.
+
+Terraform state is important because it keeps track of the resources Terraform manages and allows Terraform to determine what changes are needed. Running terraform state list displays the resources currently tracked in the state file.
